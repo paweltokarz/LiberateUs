@@ -1,0 +1,33 @@
+# Android / Gradle
+.gradle/
+.kotlin/
+.idea/
+**/build/
+local.properties
+*.iml
+
+# Signing keys and secrets
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.env
+.env.*
+!*.env.example
+keystore.properties
+signing.properties
+
+# Local data and logs
+*.log
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+.DS_Store
+Thumbs.db
+
+# Local development artifacts
+ui-check-*.png
